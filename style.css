@@ -2,9 +2,5 @@
     margin:0;
 }
 body {
-    background-color: rgb(219, 158, 158);
+    background-color: whitesmoke;
 }
-.banner {
-    height:50px;width:100%;background-color: rgb(13, 162, 162);;
-}
-
