@@ -12,3 +12,7 @@ body {
 .Login-H1 h1 {
     color: #6C5BA8;
 }
+
+.login-labels input {
+   margin-top:350px;
+}
