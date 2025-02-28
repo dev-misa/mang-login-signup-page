@@ -1,13 +1,8 @@
-# Mang login/signup pages
+# Login & Signup Pages - Mang Inspired UI
 <div align="center" style="border-bottom: none;">
-  <h1 style="border-bottom: none; margin-bottom: 0;color:blue;">Login Page</h1>
-</div>
-<div align="center">
-    <img src="images/figma-design.png" height="1000">
-        <p style="color:blue;">designed by Jesse G in Figma</p>
-</div>
-
-<div>
-  <img src="images/desktop-figma-design.png" height="600">
-  <p>Modified design by Dev-Misa</p>
+  <h1 style="border-bottom: none; margin-bottom: 0;">Login Page</h1>
+  <h4>Mobile Design</h4>
+  <img src="images/mobile-ui-design.jpg" height="600">
+  <h4>Desktop Design<h4>
+  <img src="images/desktop-ui-design.jpg" height="450">
 </div>
