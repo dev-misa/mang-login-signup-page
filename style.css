@@ -5,7 +5,8 @@ body {
     background-color: whitesmoke;
 }
 .Login-Icon img {
-    height: 425px;
+    height: 425px; float: left; margin-left:100px;
+    margin-top:150px;
 }
 
 .Login-H1 h1 {
