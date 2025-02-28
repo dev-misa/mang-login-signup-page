@@ -1,5 +1,5 @@
 # Login & Signup Pages - Mang Inspired UI
-<div align="center" style="border-bottom: none;">
+<div align="center">
   <h1 style="border-bottom: none; margin-bottom: 0;">Login Page</h1>
   <h4>Mobile Design</h4>
   <img src="images/mobile-ui-design.jpg" height="600">
