@@ -7,3 +7,7 @@ body {
 .Login-Icon img {
     height: 425px;
 }
+
+.Login-H1 h1 {
+    color: #6C5BA8;
+}
