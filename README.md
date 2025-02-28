@@ -6,3 +6,8 @@
     <img src="images/figma-design.png" height="1000">
         <p style="color:blue;">designed by Jesse G in Figma</p>
 </div>
+
+<div>
+  <img src="images/desktop-figma-design.png" height="600">
+  <p>Modified design by Dev-Misa</p>
+</div>
