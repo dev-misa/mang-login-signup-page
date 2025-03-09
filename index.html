@@ -10,7 +10,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <style>
         #username::placeholder, #password::placeholder {
-            color: #FCCDE2;
+            color: #F4579D;
         }
 
         * {
@@ -68,25 +68,32 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            margin-left: 20px;
+            margin-left: 10px;
         }
 
         .inputs input {
             width: 400px;
-            height: 39px;
-            font-size: 32px;
-            color: #f4aacb;
-            border: 1px solid black;
-            border-radius: 10px;
-            font-family: 'Modak',sans-serif;
+            height: 50px; 
+            font-size: 32px; 
+            color: #69c6e5;
+            font-family: 'Modak', sans-serif;
+            padding: 0 10px; padding-top:3px;
+            box-sizing: border-box;
+            line-height: 40px; 
+            border:2px solid black;border-radius: 10px;outline: none;
         }
+        .inputs input:focus{
+            box-shadow: 5px 5px 5px #60509b; /* Soft shadow for depth */
+            transition: box-shadow 0.3s ease-in-out;border:2px solid #60509b;outline: none;
+        }
+      
 
         .nav-pages-tags {
             display: flex;
             justify-content: space-between;
             width: 100%;
             font-size: 23px;
-            color: rgb(170, 170, 170);
+            color: #69c6e5;text-decoration: underline;
             margin-top: 15px;gap:0px;
             font-family: 'Modak',sans-serif;
         }
