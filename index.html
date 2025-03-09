@@ -3,35 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Misa's Login Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-    <!--
-    hex colors used: 
-    6C5BA8 - darkish purple
-    FCCDE2 - light redish/ pink
-    70D2F2 - darkish cyan
-    -->
-   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        #username::placeholder, #password::placeholder {
+            color: #FCCDE2;
+        }
+
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: whitesmoke;
+            font-family: 'Modak', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            margin-top:-50px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 10px;
+        }
+
+        .login-header {
+            font-size: 85px;
+            color: #6C5BA8;
+            font-weight: 100;
+            margin-top: 60px;
+        }
+
+        .login-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .login-image {
+            flex: 1;
+            text-align: left;
+        }
+
+        .login-image img {
+            height: 425px;margin-left:-100px;
+        }
+
+        .inputs {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-left: 20px;
+        }
+
+        .inputs input {
+            width: 400px;
+            height: 39px;
+            font-size: 32px;
+            color: #f4aacb;
+            border: 1px solid black;
+            border-radius: 10px;
+            font-family: 'Modak',sans-serif;
+        }
+
+        .nav-pages-tags {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 23px;
+            color: rgb(170, 170, 170);
+            margin-top: 15px;gap:0px;
+            font-family: 'Modak',sans-serif;
+        }
+        .nav-pages-tags p {
+            margin:0 13px; margin-left:20px;
+        }
+
+        .login-btn {
+            margin-top: 10px;
+        }
+
+
+        .login-btn button {
+            height: 50px;
+            font-size: 1.5rem;
+            width: 80px;
+            font-family: 'Modak',sans-serif;
+        }
+    </style>
 </head>
-<body bgcolor="whitesmoke">
-    <center>
-        <h1 style="margin-top:60px;font-family:Modak; font-size:85px;">Welcome Back</h1>
-    </center>
-    <center>
-        <div class="LoginImage"><img src="images/login-icon.png" style="height: 425px;float:left;margin-left:230px;margin-top:-125px;" alt="Login Icon"></div>
-        <div class="Inputs" style="margin-top:150px;display:flex;align-items: center;flex-direction: column;margin-right: 230px;">
-            <div><input type="text" id="username" placeholder="UserName" style="width: 400px;height:39px;"></div>
-            <div><input type="password" id="password" placeholder="Password" style="width: 400px;height:39px;margin-top:10px;"></div>
+<body>
+    <div class="container">
+        <h1 class="login-header">Welcome Back</h1>
+        <div class="login-content">
+            <div class="login-image">
+                <img src="images/login-icon.png" alt="Login Icon">
+            </div>
+            <div class="form2">
+                <div class="inputs">
+                    <input type="text" id="username" placeholder="UserName">
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div class="nav-pages-tags">
+                    <p>Forgot Password?</p>
+                    <p>New User?</p>
+                </div>
+            </div>
         </div>
-        <div class="NavPagesTags" style="display:flex;align-items:right;gap:70px;font-family:Modak;font-size:25px;margin-left:83px">
-            <p>Forgot Password?</p>
-            <p>New User?</p>
+        <div class="login-btn">
+            <button>Login</button>
         </div>
-        <div class="LoginBtn" style="margin-top: 150px;">
-            <button style="height:50px;font-size:1.5rem;width: 80px;font-family: Modak;">Login</button>
-        </div>
-    </center>
+    </div>
 </body>
 </html>
