@@ -48,18 +48,20 @@
 
         .login-content {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             width: 100%;
             margin-top: 50px;
         }
-
+        .form2 {
+            display:flex;flex-direction:column;align-items:center;width:100%;
+        }
         .login-image {
             flex: 1;
             text-align: left;
         }
 
-       /* @keyframes float {
+       @keyframes float {
     0% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
@@ -70,18 +72,19 @@
     margin-left: -100px;
     animation: float 3s ease-in-out infinite;
 }
-*/
+
 
         .inputs {
             flex: 1;
             display: flex;
             flex-direction: column;
             gap: 10px;
-            margin-left: 10px;
+            align-items: center;
+
         }
 
         .inputs input {
-            width: 400px;
+            width: 350px;
             height: 50px; 
             font-size: 32px; 
             color: #69c6e5;
@@ -92,14 +95,14 @@
             border:3px solid black;border-radius: 10px;outline: none;
         }
         .inputs input:focus{
-            box-shadow: 5px 5px 5px #60509b; /* Soft shadow for depth */
+            box-shadow: 5px 5px 5px #60509b;
             transition: box-shadow 0.3s ease-in-out;border:2px solid #60509b;outline: none;
         }
       
 
         .nav-pages-tags {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             width: 100%;
             font-size: 23px;
             color: #69c6e5;text-decoration: underline;
@@ -111,7 +114,7 @@
         }
 
         .login-btn {
-            margin-top: 10px;
+            margin-top: 20px;display:flex;justify-content: center;
         }
 
 
@@ -126,7 +129,7 @@
             background-color: #69c6e5;color:#60509b
         }
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 900px) {
             body {
                 display:flex;flex-direction: column;
                 align-items: center;text-align: center;
