@@ -117,7 +117,7 @@ animation: float 3s ease-in-out infinite;
     background-color: #69c6e5;color:#60509b;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     body {
         display:flex;flex-direction: column;
         align-items: center;text-align: center;
@@ -152,7 +152,7 @@ animation: float 3s ease-in-out infinite;
         border:3px solid #6C5BA8;
     }
     .nav-pages-tags {
-        font-size:16px;
+        font-size:16px;gap:0px;
     }
     .login-btn button {
         font-size:2rem;height: 60px;width: 110px;text-align: center;
