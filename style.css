@@ -1,5 +1,5 @@
 #username::placeholder, #password::placeholder {
-    color: #F4579D;
+    color: #f4579eaf;
 }
 
 * {
@@ -75,7 +75,7 @@ animation: float 3s ease-in-out infinite;
     width: 350px;
     height: 50px; 
     font-size: 32px; 
-    color: #69c6e5;
+    color: #F4579D;
     font-family: 'Modak', sans-serif;
     padding: 0 10px; padding-top:3px;
     box-sizing: border-box;
