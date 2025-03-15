@@ -3,7 +3,7 @@
 }
 
 * {
-    margin: 0;
+    margin: 0;padding: 0;
     box-sizing: border-box;
 }
 body {
@@ -13,7 +13,7 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    margin: 0;position: relative; 
+    margin: 0;position: relative; overflow: hidden;background-color: #70D2F2;
   }
   
   body::before {
@@ -21,11 +21,11 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('images/bt21bgimg.jpg');
+    background-image: url('images/bt21bgimgv3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: blur(8px); 
+    filter: blur(10px); 
     z-index: -1; 
   }
 
@@ -109,14 +109,14 @@ animation: float 3s ease-in-out infinite;
     justify-content: space-around;
     width: 100%;
     font-size: 23px;
-    color: #70D2F2;text-decoration: underline;
+    color: #6C5BA8;text-decoration: underline;
     margin-top: 15px;gap:0px;
     font-family: 'Modak',sans-serif;
     text-shadow: 
-    1px 1px 0px black,   
-    -1px -1px 0px black,
-    1px -1px 0px black,  
-    -1px 1px 0px black; 
+    0.5px 0.5px 0px black,   
+    -0.5px -0.5px 0px black,
+    0.5px -0.5px 0px black,  
+    -0.5px 0.5px 0px black; 
 }
 .nav-pages-tags p {
     margin:0 13px; margin-left:20px;
