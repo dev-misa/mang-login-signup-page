@@ -127,7 +127,7 @@ animation: float 3s ease-in-out infinite;
         max-width:100%;
     }
     .login-header {
-        font-size: 50px;
+        font-size: 40px;
     }
     .login-content {
         display: flex;
@@ -138,7 +138,7 @@ animation: float 3s ease-in-out infinite;
         align-items: center;
     }
     .login-image img {
-        height: 315px;display:float;margin-left:auto;margin-right:auto;margin-top:-25px;
+        height: 250px;display:float;margin-left:auto;margin-right:auto;margin-top:-25px;
     }
     .inputs {
     flex: 1;display: flex;
