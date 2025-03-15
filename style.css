@@ -49,7 +49,9 @@ body {
     2px -2px 0px black,  
     -2px 2px 0px black;  
 }
-
+.ErrorMsg h3 {
+    color:red;
+}
 .login-content {
     display: flex;
     justify-content: center;
@@ -153,7 +155,7 @@ animation: float 3s ease-in-out infinite;
         -.9px -.9px 0px black,
         .9px -.9px 0px black,  
         -.9px .9px 0px black; 
-        margin-top: -125x;
+        margin-top: -110x;
     }
     .login-content {
         display: flex;
