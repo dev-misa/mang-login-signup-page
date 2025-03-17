@@ -14,14 +14,11 @@ a {
 .ErrorContainer {
     display:flex;flex-direction: column;justify-content: center;align-items: center;gap:10px;
 }
-.ErrorContainer h5{
-    color:#00d5ff;text-shadow: 2px 2px 0px black;font-family: 'Coiny';font-size: 25px;
-}
 .ErrorContainer h3,h4 {
-    font-size: 30px;   color:#fff704;text-shadow: 2px 2px 0px black;font-family: 'Coiny';
+    font-size: 30px;   color:#70D2F2;text-shadow: 2px 2px 0px black;font-family: 'Coiny';
 }
 .ErrorContainer a {
-    font-size: 30px;text-shadow: 2px 2px 0px black;font-family: 'Coiny';
+    font-size: 25px;font-family: 'Coiny';
 }
 body {
     font-family: 'Modak', sans-serif;
