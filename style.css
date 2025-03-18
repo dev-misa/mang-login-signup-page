@@ -189,8 +189,8 @@ animation: float 3s ease-in-out infinite;
     .inputs input:focus{
         border:1px solid #6C5BA8;
     }
-    .nav-pages-tags {
-        font-size:15px;gap:5px;
+    .nav-pages-tags p{
+        font-size:14px;gap:5px;
     }
     .login-btn {
         position: relative;margin-top: 15px;
@@ -217,7 +217,7 @@ animation: float 3s ease-in-out infinite;
     }
     .TermsServ p,a {
         display: flex;flex-direction: column;justify-content: center;
-        align-items: center;font-size: 11px;
+        align-items: center;font-size: 10px;
     }
 }
 
