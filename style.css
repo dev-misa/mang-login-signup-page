@@ -144,7 +144,10 @@ animation: float 3s ease-in-out infinite;
         align-items: center;text-align: center;margin: 0 0px;height: 1;padding: 0;
     }
     .container {
-        max-width:100%;margin-top: 86px;
+        max-width:100%;
+    }
+    .SignUpContainer {
+        max-width: 100%;margin-top: 86px;
     }
     .login-header {
         font-size: 40px;
@@ -197,7 +200,7 @@ animation: float 3s ease-in-out infinite;
     }
     .TermsServ p,a {
         display: flex;flex-direction: column;justify-content: center;
-        align-items: center;font-size: 12px;
+        align-items: center;font-size: 11px;
     }
 }
 
