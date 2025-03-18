@@ -7,8 +7,8 @@ This project showcases form pages inspired by BT21’s Mang character. The desig
 <div align="center">
   <h1>Login Page</h1>
   <p>Mobile view</p>
-  <img src="images/mobile-ui-designv2.jpg" height="350">
+  <img src="images/mobile-ui-designv3.jpg" height="350">
   <p>Desktop view</p>
-  <img src="images/desktop-ui-designv2.jpg" height="300">
+  <img src="images/desktop-ui-designv3.jpg" height="300">
 </div>
 

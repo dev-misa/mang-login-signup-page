@@ -1,4 +1,4 @@
-#username::placeholder, #password::placeholder {
+#username::placeholder, #password::placeholder, #createusername::placeholder,#createpassword::placeholder,#confpassword::placeholder {
     color: #f4579eaf;
 }
 
@@ -8,8 +8,18 @@
 }
 a {
     color:#60509b;
-    text-decoration: none;
+    text-decoration: underline;font-family: 'Coiny';
     
+}
+.TermsServ p {
+    font-family: 'Helvetica';
+}
+.TermsServ a {
+    color:#cd9fd9;text-decoration: underline;
+}
+.TermsServ {
+    display:flex;flex-direction: column;align-items: center;
+    justify-content: center;margin-top: 50px;font-size: 13px;
 }
 .ErrorContainer {
     display:flex;flex-direction: column;justify-content: center;align-items: center;gap:10px;
@@ -78,7 +88,7 @@ animation: float 3s ease-in-out infinite;
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 
 }
@@ -104,8 +114,8 @@ animation: float 3s ease-in-out infinite;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    font-size: 23px;
-    margin-top: 15px;gap:0px;
+    font-size: 20px;
+    margin-top: 15px;gap:20px;
     font-family: 'Modak',sans-serif;
 }
 .nav-pages-tags p {
@@ -117,14 +127,14 @@ animation: float 3s ease-in-out infinite;
 }
 
 
-.login-btn button {
+.login-btn button,.ReturnBtn button {
     height: 65px;
     font-size: 20px;
     width: 165px;position: relative;
     font-family: 'Coiny',sans-serif;color:#fff;border-radius: 59px;
     background: #60509b;border:0.1px solid white;
 }
-.login-btn:hover button{
+.login-btn:hover button,.ReturnBtn:hover button{
     background:#58498c;color:#e4e2e2;border:0.1px solid white;
 }
 
@@ -134,7 +144,7 @@ animation: float 3s ease-in-out infinite;
         align-items: center;text-align: center;margin: 0 0px;height: 1;padding: 0;
     }
     .container {
-        max-width:100%;
+        max-width:100%;margin-top: 86px;
     }
     .login-header {
         font-size: 40px;
@@ -163,12 +173,12 @@ animation: float 3s ease-in-out infinite;
         border:1px solid #6C5BA8;
     }
     .nav-pages-tags {
-        font-size:16px;gap:0px;
+        font-size:15px;gap:5px;
     }
     .login-btn {
-        position: relative;margin-top: 50px;
+        position: relative;margin-top: 15px;
     }
-    .login-btn button {
+    .login-btn button,.ReturnBtn button {
         font-size:15px;height: 55px;width: 150px;text-align: center;
         display: flex;align-items: center;justify-content: center;padding: 0;
     }
@@ -181,6 +191,13 @@ animation: float 3s ease-in-out infinite;
     }
     .ErrorContainer a {
         font-size: 20px;
+    }
+    .TermsServ {
+        margin-top: 15px;
+    }
+    .TermsServ p,a {
+        display: flex;flex-direction: column;justify-content: center;
+        align-items: center;font-size: 12px;
     }
 }
 
