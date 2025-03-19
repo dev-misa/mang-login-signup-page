@@ -4,11 +4,16 @@ This project showcases form pages inspired by BT21’s Mang character. The desig
 ### Who is Mang?
 * BT21 is a set of characters created by the K-pop group BTS in collaboration with LINE FRIENDS. Each character represents a unique personality and style.
 * Mang is one of these characters. It has a horse-like appearance and wears a mask. Mang is known for being energetic, fun, and loves to dance.
+<br><br>
 <div align="center">
-  <h1>Login Page</h1>
-  <p>Mobile view</p>
-  <img src="images/mobile-ui-designv3.jpg" height="350">
-  <p>Desktop view</p>
-  <img src="images/desktop-ui-designv3.jpg" height="300">
+  <h1>Login & Signup Page - Mobile</h1>
+  <img src="images/mobile-lg.png" height="450">
+  <img src="images/mobile-su.png" height="450">
+</div>
+<br><br>
+<div align="center">
+  <h1>Login & Signup Page - Desktop</h1>
+  <img src="images/desktop-lg.png">
+  <img src="images/desktop-su.png">
 </div>
 
